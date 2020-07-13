@@ -1,0 +1,206 @@
+/*The Newest Styles*/
+
+body {
+  margin:0;
+  font-family: PostScript, TrueType, OpenType, Lucida Console, 'Courier New', Courier, monospace;
+  background-color: #0000aa;
+}
+
+header {
+  background-color: #aaaaaa;
+  margin-bottom: 40px;
+  border: solid thick #000036;
+}
+
+.logo {
+  font-family: PostScript, TrueType, OpenType, Lucida Console, 'Courier New', Courier, monospace;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  letter-spacing: -3;
+  margin: 0;
+}
+
+/*Navigation, Scotty*/
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+  font-family: PostScript, TrueType, OpenType, Lucida Console, 'Courier New', Courier, monospace;
+}
+
+header nav ul li a:hover 
+{ color: white;
+  background-color: black;
+}
+
+@media all and (min-width: 700px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    margin: 10px 0 10px 10px;
+    padding-top: 0;
+    font-size: 18px;
+  }
+
+  header nav {
+    margin-top: 14px;
+  }
+}
+
+/* The Main Group*/
+
+main {
+  padding: 20px 0;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+section.doswindow {
+  background-color: #aaaaaa;
+  border: solid thick #000036;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin: 80px 0;
+}
+
+footer {
+  background-color: #aaaaaa;
+  border: solid thick #000036;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+/* Let's get it all looking pretty*/
+
+h1 {
+  font-size: 26px;
+  font-family: PostScript, TrueType, OpenType, Lucida Console, 'Courier New', Courier, monospace;
+  font-weight: 400;
+  color: white;
+  margin: 0 10px;
+}
+
+h2 {
+  font-size: 26px;
+  font-family: PostScript, TrueType, OpenType, Lucida Console, 'Courier New', Courier, monospace;
+  font-weight: 400;
+  margin: 0 10px;
+  color: white;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: PostScript, TrueType, OpenType, Lucida Console, 'Courier New', Courier, monospace;
+  font-weight: 500;
+  color: white;
+}
+
+p { 
+  font-family: PostScript, TrueType, OpenType, Lucida Console, 'Courier New', Courier, monospace;
+  line-height: 1.5em;
+  margin-bottom: 0;
+  color: white;
+  font-weight: 400;
+}
+
+main a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+main a:link { color: white;}
+main a:hover { color: black;
+              background-color: #aaaaaa;}
+main a:active { color: white;
+              background-color: black;}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+main img {
+  width: 100%;
+}
+
+img.image-enhanced {
+  border-radius: 8px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+}
+
+/* Almost there: Groups and Items */
+
+@media all and (min-width: 800px) {
+  section {
+    padding: 0 10%;
+  }
+  .group {
+    flex-direction: row;
+  }
+}
+
+
+
+/* Contact Form Design */
+
+form {
+  padding-right: 8px;
+  color: black;
+  background-color: #aaaaaa;
+  border: thick solid #000036;
+}
+
+form label {
+  display: block;
+}
+
+form input, 
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 160px;
+}
