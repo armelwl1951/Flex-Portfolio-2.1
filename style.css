@@ -170,6 +170,11 @@ img.image-enhanced {
   flex: 2;
 }
 
+iframe {
+  width: 100%;
+  border-width: 0px;
+}
+
 /* Almost there: Groups and Items */
 
 @media all and (min-width: 800px) {
@@ -181,11 +186,6 @@ img.image-enhanced {
   }
 }
 
-iframe {
-  width: 100%;
-  border-radius: 8px;
-  border: solid thick #0000aa;
-}
 
 
 
