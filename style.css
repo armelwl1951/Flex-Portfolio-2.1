@@ -129,6 +129,7 @@ p {
 main a {
   font-weight: 700;
   text-decoration: none;
+  color: white;
 }
 
 main a:link { color: white;}
