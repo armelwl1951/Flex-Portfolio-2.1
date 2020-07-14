@@ -79,7 +79,7 @@ section {
 }
 
 section.doswindow {
-  background-color: #aaaaaa;
+  background-color: grey;
   border: solid thick #000036;
   padding-top: 80px;
   padding-bottom: 80px;
